@@ -1,0 +1,36 @@
+"desfecho","nome_variavel","variavel_codigo","PIP","media_posterior","desvio_padrao_posterior","prob_sinal_positivo","direcao","pip_maior_igual_05"
+"Letalidade","Município integrante de região metropolitana","metrop",0.7809,0.4517,0.3372,1,"positiva",TRUE
+"Letalidade","Proporção de mulheres eleitas","z_eleitas.fem",0.7441,-0.0937,0.0788,0,"negativa",TRUE
+"Letalidade","Cobertura média de imunização em menores de um ano","z_imuni",0.6355,-0.0598,0.0678,0,"negativa",TRUE
+"Letalidade","Alinhamento partidário do prefeito com o governo federal","aliadogov",0.6161,0.1116,0.1277,1,"positiva",TRUE
+"Letalidade","IDEB dos anos finais do ensino fundamental","z_ideb9",0.5656,-0.0522,0.0734,0,"negativa",TRUE
+"Letalidade","IVS Capital Humano","z_ivs.capital",0.5644,0.0717,0.0926,1,"positiva",TRUE
+"Letalidade","Leitos vinculados ao SUS","z_leitos1k",0.5635,0.0561,0.0764,1,"positiva",TRUE
+"Letalidade","Proporção da população em extrema pobreza","z_ex.pobr",0.5466,-0.0848,0.1174,0.0012,"negativa",TRUE
+"Letalidade","Internações por doenças do aparelho respiratório","z_int.resp",0.5365,-0.0529,0.0741,1e-04,"negativa",TRUE
+"Letalidade","Unidades de saúde vinculadas ao SUS","z_sus1k",0.5336,-0.0431,0.067,0,"negativa",TRUE
+"Letalidade","População beneficiária do Programa Bolsa Família","z_bolsaf",0.5285,0.0564,0.0803,0.9989,"positiva",TRUE
+"Letalidade","Área territorial","z_area",0.4824,0.0306,0.0552,0.9996,"positiva",FALSE
+"Letalidade","IDEB do 3º ano do ensino médio","z_ideb3",0.4813,0.0306,0.0539,0.9998,"positiva",FALSE
+"Letalidade","Internações por doenças do aparelho circulatório","z_int.circ",0.4749,0.0343,0.0654,0.9972,"positiva",FALSE
+"Letalidade","Proporção da população em empregos formais","z_emprego",0.4675,-0.0355,0.0734,0.002,"negativa",FALSE
+"Letalidade","Taxa de homicídios","z_tax.hom",0.456,-0.0234,0.0499,0.0112,"negativa",FALSE
+"Letalidade","Índice de Desenvolvimento Municipal","z_idm",0.456,-0.0396,0.0856,0.021,"negativa",FALSE
+"Letalidade","População estimada","z_pop",0.4538,0.0208,0.1401,0.8219,"positiva",FALSE
+"Letalidade","Índice de Desenvolvimento Humano Municipal","z_idhm",0.4527,0.0382,0.0975,0.9043,"positiva",FALSE
+"Letalidade","IVS Infraestrutura Urbana","z_ivs.infra",0.4496,-0.0221,0.0524,0.0139,"negativa",FALSE
+"Letalidade","Densidade demográfica","z_densidade",0.4461,0.0252,0.14,0.8782,"positiva",FALSE
+"Letalidade","IDEB dos anos iniciais do ensino fundamental","z_ideb5",0.4309,0.001,0.0572,0.6693,"positiva",FALSE
+"Letalidade","Consumo de energia elétrica por 100 mil habitantes","z_energia100k",0.4306,-0.0194,0.0572,0.0136,"negativa",FALSE
+"Letalidade","Profissionais de saúde vinculados ao SUS","z_prof1k",0.426,-0.012,0.0585,0.1556,"negativa",FALSE
+"Letalidade","Produto Interno Bruto per capita","z_pibpc",0.4231,-0.0084,0.06,0.3253,"negativa",FALSE
+"Letalidade","Proporção da população rural","z_pop.rural",0.4169,-0.0053,0.0523,0.4223,"negativa",FALSE
+"Letalidade","Proporção da população com 60 anos ou mais","z_idosos",0.4159,0.0091,0.0483,0.8976,"positiva",FALSE
+"Letalidade","IVS Renda e Trabalho","z_ivs.renda",0.4134,0.0101,0.0646,0.8429,"positiva",FALSE
+"Letalidade","Proporção de votos válidos do prefeito eleito","z_votos",0.4124,-0.0051,0.0378,0.2579,"negativa",FALSE
+"Letalidade","Despesa municipal com saúde e saneamento","z_desp.saude",0.4105,0.0124,0.0556,0.8689,"positiva",FALSE
+"Letalidade","Município integrante do semiárido","semiarido",0.4085,0.0135,0.1014,0.8696,"positiva",FALSE
+"Letalidade","Despesa municipal com educação e cultura","z_desp.educ",0.4061,0.0037,0.0454,0.7425,"positiva",FALSE
+"Letalidade","Internações por diabetes mellitus","z_int.diab",0.4054,0.0023,0.0476,0.66,"positiva",FALSE
+"Letalidade","Internações por asma","z_int.asma",0.4053,-0.005,0.0436,0.2039,"negativa",FALSE
+"Letalidade","Cobertura urbana de abastecimento de água","z_tax.agua",0.4012,-0.0031,0.0357,0.1738,"negativa",FALSE

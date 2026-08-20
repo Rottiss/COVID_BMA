@@ -1,0 +1,38 @@
+"desfecho","nome_variavel","variavel_codigo","PIP_principal","PIP_ampliado","PIP_escala_nivel","PIP_sem_fortaleza","n_especificacoes_pip_maior_igual_05"
+"Casos","Índice de Desenvolvimento Municipal","z_idm",0.9965,0.996,0.9121,0.9972,4
+"Casos","Leitos vinculados ao SUS","z_leitos1k",0.9888,0.9769,0.9102,0.9852,4
+"Casos","Município integrante de região metropolitana","metrop",0.9807,0.9702,0.9863,0.9687,4
+"Casos","Internações por doenças do aparelho circulatório","z_int.circ",0.7572,0.739,0.6322,0.7239,4
+"Casos","IVS Renda e Trabalho","z_ivs.renda",0.7337,0.649,0.8541,0.7101,4
+"Casos","Proporção da população com 60 anos ou mais","z_idosos",0.6988,0.7287,0.7382,0.6259,4
+"Casos","População beneficiária do Programa Bolsa Família","z_bolsaf",0.6363,0.5894,0.3624,0.5928,3
+"Casos","Internações por asma","z_int.asma",0.5763,0.5207,0.3733,0.5338,3
+"Casos","Taxa de homicídios","z_tax.hom",0.5662,0.4759,0.3416,0.5255,2
+"Casos","Cobertura urbana de abastecimento de água","z_tax.agua",0.5249,0.4832,0.3151,0.4742,1
+"Casos","IDEB dos anos iniciais do ensino fundamental","z_ideb5",0.5142,0.5079,0.55,0.4784,3
+"Casos","Município integrante do semiárido","semiarido",0.5068,0.4468,0.5934,0.4959,2
+"Casos","Unidades de saúde vinculadas ao SUS","z_sus1k",0.5042,0.4725,0.7024,0.4659,2
+"Casos","IDEB dos anos finais do ensino fundamental","z_ideb9",0.4991,0.4506,0.5364,0.4651,1
+"Casos","Produto Interno Bruto per capita","z_pibpc",0.4899,0.4448,0.3239,0.4715,0
+"Casos","Proporção da população em extrema pobreza","z_ex.pobr",0.4881,0.424,0.4545,0.4559,0
+"Casos","IDEB do 3º ano do ensino médio","z_ideb3",0.4463,0.4029,0.4283,0.4067,0
+"Casos","Densidade demográfica","z_densidade",0.4369,0.3952,0.3856,0.2893,0
+"Casos","Proporção da população em empregos formais","z_emprego",0.4309,0.3935,0.3116,0.383,0
+"Casos","População estimada","z_pop",0.4296,0.3845,0.3746,0.299,0
+"Casos","IVS Infraestrutura Urbana","z_ivs.infra",0.4258,0.3902,0.3381,0.4059,0
+"Casos","Internações por diabetes mellitus","z_int.diab",0.413,0.3487,0.4004,0.3792,0
+"Casos","Profissionais de saúde vinculados ao SUS","z_prof1k",0.41,0.3565,0.392,0.3703,0
+"Casos","Proporção da população rural","z_pop.rural",0.4078,0.3646,0.5896,0.3558,1
+"Casos","Proporção de mulheres eleitas","z_eleitas.fem",0.3863,0.3535,0.3436,0.3408,0
+"Casos","Cobertura média de imunização em menores de um ano","z_imuni",0.3817,0.357,0.3976,0.3496,0
+"Casos","Internações por doenças do aparelho respiratório","z_int.resp",0.3651,0.3281,0.3175,0.3234,0
+"Casos","Despesa municipal com educação e cultura","z_desp.educ",0.355,0.3197,0.3174,0.3155,0
+"Casos","Proporção de votos válidos do prefeito eleito","z_votos",0.3464,0.3095,0.3086,0.3003,0
+"Casos","Índice de Desenvolvimento Humano Municipal","z_idhm",0.3452,0.3061,0.3431,0.3016,0
+"Casos","IVS Capital Humano","z_ivs.capital",0.3433,0.3042,0.3564,0.3018,0
+"Casos","Despesa municipal com saúde e saneamento","z_desp.saude",0.3389,0.306,0.3479,0.3021,0
+"Casos","Consumo de energia elétrica por 100 mil habitantes","z_energia100k",0.3368,0.3025,0.3098,0.2944,0
+"Casos","Área territorial","z_area",0.3296,0.295,0.324,0.2846,0
+"Casos","Alinhamento partidário do prefeito com o governo federal","aliadogov",0.3293,0.3006,0.3049,0.2938,0
+"Casos","Auxílio emergencial","z_auxem",NA,0.3615,NA,NA,0
+"Casos","Transferências federais para combate à COVID-19","z_recursofed",NA,0.3549,NA,NA,0

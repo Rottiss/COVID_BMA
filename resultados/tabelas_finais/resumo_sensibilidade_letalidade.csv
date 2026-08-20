@@ -1,0 +1,38 @@
+"desfecho","nome_variavel","variavel_codigo","PIP_principal","PIP_ampliado","PIP_escala_nivel","PIP_sem_fortaleza","n_especificacoes_pip_maior_igual_05"
+"Letalidade","Município integrante de região metropolitana","metrop",0.7809,0.7316,0.706,0.6491,4
+"Letalidade","Proporção de mulheres eleitas","z_eleitas.fem",0.7441,0.6968,0.6856,0.6263,4
+"Letalidade","Cobertura média de imunização em menores de um ano","z_imuni",0.6355,0.5913,0.7062,0.5336,4
+"Letalidade","Alinhamento partidário do prefeito com o governo federal","aliadogov",0.6161,0.5586,0.5797,0.5283,4
+"Letalidade","IDEB dos anos finais do ensino fundamental","z_ideb9",0.5656,0.5149,0.5429,0.4751,3
+"Letalidade","IVS Capital Humano","z_ivs.capital",0.5644,0.4897,0.5777,0.4679,2
+"Letalidade","Leitos vinculados ao SUS","z_leitos1k",0.5635,0.5002,0.3744,0.456,2
+"Letalidade","Proporção da população em extrema pobreza","z_ex.pobr",0.5466,0.48,0.4684,0.4512,1
+"Letalidade","Internações por doenças do aparelho respiratório","z_int.resp",0.5365,0.4792,0.5676,0.4366,2
+"Letalidade","Unidades de saúde vinculadas ao SUS","z_sus1k",0.5336,0.4867,0.446,0.4348,1
+"Letalidade","População beneficiária do Programa Bolsa Família","z_bolsaf",0.5285,0.4761,0.4427,0.4404,1
+"Letalidade","Área territorial","z_area",0.4824,0.4181,0.4374,0.3916,0
+"Letalidade","IDEB do 3º ano do ensino médio","z_ideb3",0.4813,0.4308,0.4318,0.4064,0
+"Letalidade","Internações por doenças do aparelho circulatório","z_int.circ",0.4749,0.4216,0.4793,0.3982,0
+"Letalidade","Proporção da população em empregos formais","z_emprego",0.4675,0.414,0.491,0.386,0
+"Letalidade","Taxa de homicídios","z_tax.hom",0.456,0.4033,0.4005,0.371,0
+"Letalidade","Índice de Desenvolvimento Municipal","z_idm",0.456,0.4174,0.4235,0.3802,0
+"Letalidade","População estimada","z_pop",0.4538,0.4035,0.517,0.3414,1
+"Letalidade","Índice de Desenvolvimento Humano Municipal","z_idhm",0.4527,0.4023,0.4674,0.3679,0
+"Letalidade","IVS Infraestrutura Urbana","z_ivs.infra",0.4496,0.3995,0.3748,0.3749,0
+"Letalidade","Densidade demográfica","z_densidade",0.4461,0.3985,0.4854,0.3284,0
+"Letalidade","IDEB dos anos iniciais do ensino fundamental","z_ideb5",0.4309,0.3845,0.4051,0.3603,0
+"Letalidade","Consumo de energia elétrica por 100 mil habitantes","z_energia100k",0.4306,0.3855,0.4013,0.3568,0
+"Letalidade","Profissionais de saúde vinculados ao SUS","z_prof1k",0.426,0.3784,0.4644,0.3509,0
+"Letalidade","Produto Interno Bruto per capita","z_pibpc",0.4231,0.3739,0.3859,0.3377,0
+"Letalidade","Proporção da população rural","z_pop.rural",0.4169,0.376,0.4048,0.3382,0
+"Letalidade","Proporção da população com 60 anos ou mais","z_idosos",0.4159,0.3713,0.3824,0.3317,0
+"Letalidade","IVS Renda e Trabalho","z_ivs.renda",0.4134,0.3683,0.3944,0.3413,0
+"Letalidade","Proporção de votos válidos do prefeito eleito","z_votos",0.4124,0.3661,0.3877,0.3287,0
+"Letalidade","Despesa municipal com saúde e saneamento","z_desp.saude",0.4105,0.3683,0.4149,0.3402,0
+"Letalidade","Município integrante do semiárido","semiarido",0.4085,0.3605,0.3693,0.3337,0
+"Letalidade","Despesa municipal com educação e cultura","z_desp.educ",0.4061,0.3609,0.3879,0.3277,0
+"Letalidade","Internações por diabetes mellitus","z_int.diab",0.4054,0.3592,0.4492,0.3284,0
+"Letalidade","Internações por asma","z_int.asma",0.4053,0.361,0.379,0.3286,0
+"Letalidade","Cobertura urbana de abastecimento de água","z_tax.agua",0.4012,0.3509,0.3698,0.3256,0
+"Letalidade","Auxílio emergencial","z_auxem",NA,0.39,NA,NA,0
+"Letalidade","Transferências federais para combate à COVID-19","z_recursofed",NA,0.3785,NA,NA,0

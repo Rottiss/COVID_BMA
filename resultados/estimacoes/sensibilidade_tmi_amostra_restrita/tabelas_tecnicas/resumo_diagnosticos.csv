@@ -1,0 +1,4 @@
+"especificacao","desfecho","cadeias","iteracoes_retidas","burn_in_total","corr_PMP_minima","corr_PMP_maxima","maior_diferenca_PIP","modelos_visitados_por_cadeia","status"
+"sensibilidade_tmi_amostra_restrita","casos",1,5e+05,1e+05,0.9973,0.9973,0,"316736","aprovado"
+"sensibilidade_tmi_amostra_restrita","obitos",1,5e+05,1e+05,0.9979,0.9979,0,"133379","aprovado"
+"sensibilidade_tmi_amostra_restrita","letalidade",1,5e+05,1e+05,0.9999,0.9999,0,"216530","aprovado"

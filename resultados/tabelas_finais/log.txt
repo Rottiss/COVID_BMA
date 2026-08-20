@@ -1,0 +1,7 @@
+=== Tabelas e graficos finais dos resultados BMA ===
+Data/hora: 2026-08-19 03:20:41 -0300
+Todos os 14 arquivos de origem foram encontrados.
+Tabela principal por desfecho gerada (35 covariaveis x 3 desfechos = 105 linhas).
+Resumo das sensibilidades gerado para os tres desfechos (uniao sempre por codigo da variavel).
+Graficos de PIP salvos (grafico_pip_casos.png, grafico_pip_obitos.png, grafico_pip_letalidade.png).
+Quadro do diagnostico espacial gerado (6 linhas).

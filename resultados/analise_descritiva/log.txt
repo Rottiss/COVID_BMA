@@ -1,0 +1,13 @@
+=== Analise descritiva (Fase 4) ===
+Data/hora: 2026-08-19 18:51:22 -0300
+Base preparada: 184 municipios, 35 covariaveis principais, 37 covariaveis ampliadas.
+Preparacao local conferida contra resultados/estimacoes/principal/resultados.rds: desfecho, nomes/ordem das 35 covariaveis e valores das 35 covariaveis identicos (diferenca < 1e-6) nos tres desfechos.
+Estatisticas descritivas geradas para 40 variaveis (3 desfechos + 37 covariaveis).
+Valores extremos (regra 1.5xIQR) identificados: 339 observacoes em 36 variaveis.
+Fortaleza fica a mais de 3 desvios-padrao dos demais municipios em: pop; densidade; idhm; idm; ivs.renda; emprego; ivs.capital; metrop
+Numero de condicao do desenho do modelo principal (35 covariaveis, todas padronizadas -- inclusive as 3 binarias, so para este diagnostico -- sem os desfechos e sem intercepto, pois o BMS trata o intercepto separadamente): 20.6615. Belsley, Kuh e Welsch (1980) classificam numero de condicao acima de 30 como atencao moderada e acima de 100 como severa, para matrizes com colunas normalizadas como esta. Nao comparavel ao numero registrado no ROADMAP_TCC.md para a base anterior a correcao, pois a composicao de variaveis e a padronizacao usadas la nao estao documentadas neste projeto.
+Pares com |correlacao| > 0.8: 2. Detalhes em pares_alta_correlacao.csv.
+Heatmap de correlacao salvo em heatmap_correlacao.png.
+Boxplots de distribuicao salvos em distribuicoes_covariaveis.png.
+Baixando malha municipal do Ceara via geobr para os mapas...
+Mapas descritivos dos tres desfechos salvos (mapa_casos100k.png, mapa_obitos100k.png, mapa_letalidade.png).

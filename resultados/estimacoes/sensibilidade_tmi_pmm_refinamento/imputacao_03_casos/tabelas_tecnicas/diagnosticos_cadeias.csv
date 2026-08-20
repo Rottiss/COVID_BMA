@@ -1,0 +1,2 @@
+"especificacao","desfecho","cadeia","semente","tamanho_medio_modelo","iteracoes","burn_in","tempo","modelos_visitados","percentual_visitado","corr_PMP","prior_modelo","g_prior","shrinkage"
+"sensibilidade_tmi_pmm_refinamento/imputacao_03_casos","casos","cadeia_1",20200731,"17.3760","5e+05","1e+05","38.5435 secs","310455","0.00045","0.9817","random / 18","hyper (a=2.01087)","Av=0.843, Stdev=0.074"

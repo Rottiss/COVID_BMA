@@ -1,0 +1,2 @@
+"especificacao","desfecho","cadeias","iteracoes_retidas","burn_in_total","corr_PMP_minima","corr_PMP_maxima","maior_diferenca_PIP","modelos_visitados_por_cadeia","status"
+"sensibilidade_tmi_pmm_refinamento/imputacao_03_casos","casos",1,5e+05,1e+05,0.9817,0.9817,0,"310455","aprovado"

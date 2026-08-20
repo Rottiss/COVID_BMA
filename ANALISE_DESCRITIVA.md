@@ -1,0 +1,49 @@
+# Análise descritiva da base (Fase 4)
+
+**Atualização:** 19 de agosto de 2026 (revisado após auditoria do Codex).
+**Script:** `analise_descritiva.R`, saídas em `resultados/analise_descritiva/`.
+**Escopo:** puramente descritivo. Não interpreta causalidade nem dependência espacial — o diagnóstico de dependência espacial está em `diagnostico_espacial.R` e `ANALISE_RESULTADOS_BMA.md`.
+
+O script é autocontido: lê e prepara `dadosv6.xlsx` diretamente, repetindo apenas os passos de leitura, validação e transformação de `covid_bma.R` (não a estimação). A versão anterior usava `source("covid_bma.R")`, o que executava o fluxo inteiro de estimação BMA a cada vez — só não reestimava porque encontrava os objetos já salvos, mas isso não é uma estrutura segura para um script descritivo. Agora o script confere sua preparação local contra `resultados/estimacoes/principal/resultados.rds` (leitura simples com `readRDS()`, sem reestimar nada), para os três desfechos: (a) o desfecho padronizado recomposto localmente bate com a primeira coluna de `X.data`; (b) os nomes e a ordem das 35 covariáveis batem exatamente com as colunas restantes de `X.data`; (c) os valores das 35 covariáveis batem com esses mesmos dados, com diferença máxima menor que 1e-6. As três verificações passam nos três desfechos. Não estima nenhum modelo novo.
+
+## Estatísticas descritivas
+
+`estatisticas_descritivas.csv` traz N, ausências, média, desvio-padrão e quartis para os três desfechos (`cov100k`, `obito100k`, `letal`) e as 37 covariáveis do modelo ampliado, com a unidade de cada uma conforme `DICIONARIO_DADOS_FASE_1.md`. Município completo (184 linhas, sem ausência fora dos 10 `NA` já documentados de `tmi`).
+
+Fortaleza domina a amostra em população (2.669.342, quando a mediana é 21.999) e densidade (8.546 hab/km², mediana 39,2), o que já era esperado e é tratado pela especificação de sensibilidade sem Fortaleza.
+
+**Correção de unidade (`desp.saude`, `desp.educ`):** o `DICIONARIO_DADOS_FASE_1.md` descrevia essas duas variáveis como "valor absoluto na base atual", pendência D05 em aberto. Isso estava desatualizado: `main/.codex_tmp/convert_despesas_100k.mjs` (18/08/2026) já havia convertido ambas para R$ por 100 mil habitantes, aplicando a fórmula `valor absoluto ÷ população × 100.000` diretamente nas colunas `desp.saude` e `desp.educ` da aba `raw` — essa é a fonte principal da correção, o script e a fórmula aplicada. A correlação de `desp.saude` e `desp.educ` com `pop` (praticamente nula: 0,027 e -0,206) foi usada apenas como conferência secundária, coerente com a conversão já realizada. `DICIONARIO_DADOS_FASE_1.md` e a tabela de unidades deste script foram corrigidos para refletir isso.
+
+## Correlação e colinearidade
+
+A matriz de correlação (`matriz_correlacao.csv`, heatmap em `heatmap_correlacao.png`) inclui as 35 covariáveis do modelo principal (padronizadas ou binárias, a mesma lista `covariaveis_principais` de `covid_bma.R`) mais os três desfechos padronizados, para também mostrar a correlação covariável-desfecho.
+
+O heatmap usa eixos numerados (1 a 38) em vez dos nomes das variáveis por extenso, com a matriz completa (não só o triângulo superior) e sem reordenação por cluster hierárquico — a ordem é a mesma de `matriz_correlacao.csv`. A legenda número-variável está em `legenda_heatmap_correlacao.csv` e, como imagem pronta para colar junto ao heatmap, em `legenda_heatmap_correlacao.png`. Esse formato foi adotado depois de comparar com a Figura S1 de Stojkoski et al. (2022, Artigo 1), que usa a mesma convenção; a versão anterior (nomes por extenso nos eixos, em diagonal, reordenados por cluster) ficava mais poluída para 38 variáveis. Os nomes em `nomes_correlacao` (fonte da legenda) usam acentuação correta em UTF-8 (ex.: "Óbitos", "População", "Índice de Desenvolvimento Humano Municipal", "Cobertura urbana de abastecimento de água"); uma versão anterior desse vetor estava em ASCII puro, sem acentos.
+
+- **Número de condição do desenho do modelo principal: 20,66.** Esse número usa uma matriz separada, contendo **somente as 35 covariáveis**, sem os desfechos — número de condição é uma propriedade do desenho X do modelo, não de X mais a variável resposta. (Uma versão anterior deste documento reportava 265,5, calculado incluindo os três desfechos na mesma matriz; esse número media outra coisa e foi descartado.)
+
+  No desenho real usado pelo BMS, as covariáveis contínuas entram padronizadas (média 0, variância 1), mas os três indicadores binários (`metrop`, `semiarido`, `aliadogov`) entram na escala original 0/1. Número de condição é sensível à escala das colunas, e os limiares de referência de Belsley, Kuh e Welsch (1980) só valem quando todas as colunas estão normalizadas de forma comparável. Por isso, **só para este diagnóstico** (nunca no desenho real do modelo, que permanece com as binárias em 0/1), os três indicadores binários também foram padronizados antes do cálculo. Uma versão anterior deste documento usava as binárias na escala original (0/1) e ainda assim citava os limiares de Belsley-Kuh-Welsch — isso não era válido; o número mudou pouco na prática (20,26 → 20,66), mas a citação dos limiares só passa a se sustentar com essa padronização completa.
+
+  Com essa ressalva, 20,66 é baixo pelos critérios de Belsley, Kuh e Welsch (1980): valores acima de 30 indicam atenção moderada, acima de 100, severa. **Este número não é comparável ao 840,6 registrado no `ROADMAP_TCC.md` para a base anterior à correção**, porque a composição de variáveis (39 vs. 35, IVS representado de forma diferente, TMI removida) e a padronização usadas naquele cálculo não estão documentadas neste projeto — não há garantia de que as duas matrizes foram construídas da mesma forma. Não é possível afirmar, a partir apenas destes dois números, que a auditoria reduziu a colinearidade; o valor atual é reportado aqui só como caracterização descritiva da base corrigida.
+- Apenas dois pares de variáveis têm `|correlação| > 0,8` (`pares_alta_correlacao.csv`): `pop` e `densidade` (0,97 — relação estrutural esperada, já que densidade deriva de população e área) e `idhm` e `ex.pobr` (-0,81 — desenvolvimento humano e extrema pobreza inversamente relacionados, também esperado). Nenhum dos dois indica erro de dado; são relações conceituais plausíveis, não pares redundantes por acidente de construção.
+- O heatmap mostra dois agrupamentos hierárquicos nítidos: um bloco de vulnerabilidade (`ivs.capital`, `ivs.renda`, `ex.pobr`, `semiarido`, `idosos`) correlacionado negativamente com um bloco de desenvolvimento/urbanização (`idhm`, `energia100k`, `emprego`, `pibpc`, `pop`, `densidade`), e um bloco de utilização de serviços de saúde (`int.asma`, `int.diab`, `int.circ`) correlacionado entre si. Ambos os padrões são substantivamente esperados, não artefatos.
+
+## Valores extremos
+
+`outliers_por_variavel.csv` lista 339 observações fora de 1,5×IQR em 36 variáveis (regra padrão de boxplot; ver também `distribuicoes_covariaveis.png`), dentro do conjunto de 40 variáveis descritas (3 desfechos + 37 covariáveis do modelo ampliado — a TMI não entra nesse conjunto, pois foi excluída de todas as especificações do modelo e não é varrida por esta análise). O diagnóstico não estabelece, por si só, que os valores extremos sejam erros: a regra de 1,5×IQR identifica afastamento estatístico da distribuição da amostra, não verifica a correção do valor na fonte. Os extremos mais notáveis coincidem com pendências já documentadas no `DICIONARIO_DADOS_FASE_1.md` — letalidade máxima de 0,1667 em Penaforte e um valor de `imuni` acima de 1 (1,065) —, mas essa checagem não confirma nem descarta se são erros; qualquer conclusão sobre correção exigiria conferência direta na fonte de cada variável.
+
+## Influência de Fortaleza
+
+`fortaleza_influencia.csv` mede o escore-z de Fortaleza em relação aos demais 183 municípios, por variável. Fortaleza fica a mais de 3 desvios-padrão dos demais em população (61,0), densidade (44,3), IDHM (4,6), IDM (4,5), IVS Renda e Trabalho (-3,7), proporção em emprego formal (3,2), IVS Capital Humano (-3,1) e integrante de região metropolitana (3,0 — indicador binário, interpretação de escore-z menos informativa aqui). Vale notar que os próprios desfechos de Fortaleza também são elevados frente ao resto: óbitos por 100 mil (2,8 desvios) e letalidade (2,5 desvios), não só as covariáveis. Isso reforça a necessidade da especificação sem Fortaleza já presente no plano de estimação, e sugere que a diferença de resultados com e sem Fortaleza não vem só do lado das covariáveis.
+
+## Mapas descritivos
+
+`mapa_casos100k.png`, `mapa_obitos100k.png` e `mapa_letalidade.png` mostram a distribuição geográfica dos três desfechos até 31/07/2020, sem qualquer interpretação causal ou inferência espacial (essa análise formal está em `diagnostico_espacial.R`). Padrões visuais: casos concentrados em municípios do Norte/Noroeste cearense e um foco isolado na Região Metropolitana; óbitos por 100 mil mais intensos no Norte/Noroeste, com vários municípios acima de 100 óbitos por 100 mil; letalidade com focos localizados e não coincidentes com as áreas de maior incidência de casos, incluindo Penaforte (o valor máximo da amostra) no Cariri.
+
+## Limites
+
+Esta análise é descritiva. Não substitui o diagnóstico de dependência espacial nem os resultados do BMA, e não deve ser lida como evidência de associação ou causalidade — apenas como caracterização da base antes da estimação.
+
+## Uso no manuscrito
+
+Em 19/08/2026, as estatísticas descritivas foram incorporadas à Seção 4 do Google Doc `TCC v2` em uma tabela dividida em quatro painéis. Os três mapas foram inseridos como figuras provisórias. O heatmap numerado e sua legenda foram reservados para o apêndice, caso sejam mantidos na versão final em LaTeX.

@@ -1,0 +1,4 @@
+"imputacao","especificacao","desfecho","cadeias","iteracoes_retidas","burn_in_total","corr_PMP_minima","corr_PMP_maxima","maior_diferenca_PIP","modelos_visitados_por_cadeia","status"
+"imputacao_01","sensibilidade_tmi_pmm/imputacao_01","casos",1,250000,50000,0.9499,0.9499,0,"151719","revisar"
+"imputacao_03","sensibilidade_tmi_pmm/imputacao_03","casos",1,250000,50000,0.9345,0.9345,0,"153145","revisar"
+"imputacao_05","sensibilidade_tmi_pmm/imputacao_05","casos",1,250000,50000,0.9418,0.9418,0,"153866","revisar"

@@ -1,0 +1,4 @@
+"especificacao","desfecho","cadeias","iteracoes_retidas","burn_in_total","corr_PMP_minima","corr_PMP_maxima","maior_diferenca_PIP","modelos_visitados_por_cadeia","status"
+"principal","casos",2,2e+06,4e+05,0.9931,0.9931,0.00920500000000002,"626868;621715","aprovado"
+"principal","obitos",2,2e+06,4e+05,0.9989,0.9989,0.008905,"364696;368967","aprovado"
+"principal","letalidade",2,2e+06,4e+05,0.9981,0.9998,0.010085,"589402;585817","aprovado"

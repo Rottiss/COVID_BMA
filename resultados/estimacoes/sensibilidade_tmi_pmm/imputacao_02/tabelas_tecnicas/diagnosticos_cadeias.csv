@@ -1,0 +1,4 @@
+"especificacao","desfecho","cadeia","semente","tamanho_medio_modelo","iteracoes","burn_in","tempo","modelos_visitados","percentual_visitado","corr_PMP","prior_modelo","g_prior","shrinkage"
+"sensibilidade_tmi_pmm/imputacao_02","casos","cadeia_1",20200731,"17.6204","250000","50000","20.27992 secs","152515","0.00022","0.9583","random / 18","hyper (a=2.01087)","Av=0.8415, Stdev=0.075"
+"sensibilidade_tmi_pmm/imputacao_02","obitos","cadeia_1",20200731,"7.0808","250000","50000","16.68009 secs","87513","0.00013","0.9901","random / 18","hyper (a=2.01087)","Av=0.9111, Stdev=0.063"
+"sensibilidade_tmi_pmm/imputacao_02","letalidade","cadeia_1",20200731,"16.8336","250000","50000","19.48792 secs","149264","0.00022","0.9971","random / 18","hyper (a=2.01087)","Av=0.6695, Stdev=0.18"

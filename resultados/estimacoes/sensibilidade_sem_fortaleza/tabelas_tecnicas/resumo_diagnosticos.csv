@@ -1,0 +1,4 @@
+"especificacao","desfecho","cadeias","iteracoes_retidas","burn_in_total","corr_PMP_minima","corr_PMP_maxima","maior_diferenca_PIP","modelos_visitados_por_cadeia","status"
+"sensibilidade_sem_fortaleza","casos",1,5e+05,1e+05,0.9795,0.9795,0,"302476","aprovado"
+"sensibilidade_sem_fortaleza","obitos",1,5e+05,1e+05,0.9966,0.9966,0,"198464","aprovado"
+"sensibilidade_sem_fortaleza","letalidade",1,5e+05,1e+05,0.9991,0.9991,0,"259369","aprovado"

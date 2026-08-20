@@ -1,0 +1,4 @@
+"desfecho","cadeias","iteracoes_totais","burn_in_total","tamanho_medio_modelo","modelos_visitados","corr_PMP_minima","corr_PMP_maxima","maior_diferenca_PIP"
+"casos",3,1500000,3e+05,18.4931666666667,944835,0.9709,0.994,0.029914
+"letalidade",3,1500000,3e+05,16.3943,902495,0.9989,0.9997,0.045124
+"obitos",3,1500000,3e+05,7.31786666666667,561928,0.9969,0.9974,0.014784

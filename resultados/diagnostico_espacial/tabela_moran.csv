@@ -1,0 +1,7 @@
+"desfecho","vizinhanca","n_municipios","permutacoes","moran_observado","valor_esperado_simulado","variancia_simulada","rank_observado","pseudo_p_valor","pseudo_p_valor_spdep","semente","conclusao"
+"casos","Queen",184,9999,0.255956038941193,-0.00553622244371589,0.00223932580364916,10000,2e-04,0,20200731,"Evidencia de autocorrelacao espacial residual ao nivel de 5%."
+"casos","Rook",184,9999,0.260477368560385,-0.00551498599233618,0.00243544254756072,10000,2e-04,0,20200731,"Evidencia de autocorrelacao espacial residual ao nivel de 5%."
+"obitos","Queen",184,9999,0.225050340631948,-0.00598575063289234,0.00217075232275466,10000,2e-04,0,20200731,"Evidencia de autocorrelacao espacial residual ao nivel de 5%."
+"obitos","Rook",184,9999,0.24419201625827,-0.00588329844793777,0.00239506792160031,10000,2e-04,0,20200731,"Evidencia de autocorrelacao espacial residual ao nivel de 5%."
+"letalidade","Queen",184,9999,0.0844860518840398,-0.00541717394567077,0.00217129612634813,9700,0.0602,0.0600000000000001,20200731,"Sem evidencia de autocorrelacao espacial residual ao nivel de 5% sob esta matriz."
+"letalidade","Rook",184,9999,0.0920916152678724,-0.0054207300836806,0.00237795851523727,9733,0.0536,0.0534,20200731,"Sem evidencia de autocorrelacao espacial residual ao nivel de 5% sob esta matriz."

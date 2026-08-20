@@ -1,0 +1,33 @@
+Fonte da malha: IBGE, Malhas Territoriais, ano 2020, obtida via pacote geobr (IPEA).
+URL de referencia do pacote: https://ipeagit.github.io/geobr/
+URL institucional dos dados: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/
+Data de acesso: 2026-08-19
+Sistema de referencia espacial: SIRGAS 2000 (EPSG:4674).
+Campo com o codigo IBGE: code_muni (malha) / codigo_ibge (base).
+
+=== Diagnostico de dependencia espacial ===
+Data/hora: 2026-08-19 02:06:31 -0300
+Base lida: 184 municipios, ordem de linhas preservada de dadosv6.xlsx.
+Correspondencia casos/cadeia_1: diferenca maxima entre z_log_casos100k recomposto e X.data[,1] = 0e+00
+Correspondencia casos/cadeia_2: diferenca maxima entre z_log_casos100k recomposto e X.data[,1] = 0e+00
+Correspondencia obitos/cadeia_1: diferenca maxima entre z_log_obitos100k recomposto e X.data[,1] = 0e+00
+Correspondencia obitos/cadeia_2: diferenca maxima entre z_log_obitos100k recomposto e X.data[,1] = 0e+00
+Correspondencia letalidade/cadeia_1: diferenca maxima entre z_logit_letal recomposto e X.data[,1] = 0e+00
+Correspondencia letalidade/cadeia_2: diferenca maxima entre z_logit_letal recomposto e X.data[,1] = 0e+00
+Todas as verificacoes de correspondencia entre a base e X.data passaram.
+Residuos model-averaged calculados para casos, obitos e letalidade.
+Baixando malha municipal do Ceara via geobr (IBGE, ano 2020)...
+Malha obtida: 184 municipios. CRS: EPSG:4674. Fonte: IBGE via geobr, ano 2020.
+Geometrias invalidas antes de correcao: 0
+Codigos da base sem correspondencia na malha: 0
+Codigos da malha sem correspondencia na base: 0
+Malha alinhada aos residuos por codigo_ibge; ordem final identica.
+Municipios sem vizinhos (ilhas) -- Queen: 0
+Municipios sem vizinhos (ilhas) -- Rook: 0
+Nenhuma ilha encontrada; zero.policy permanece desligado (FALSE) em ambas as matrizes.
+Moran casos/Queen: I = 0.256, p (contagem, corrigido) = 2e-04, p (spdep, bruto) = 0
+Moran casos/Rook: I = 0.2605, p (contagem, corrigido) = 2e-04, p (spdep, bruto) = 0
+Moran obitos/Queen: I = 0.2251, p (contagem, corrigido) = 2e-04, p (spdep, bruto) = 0
+Moran obitos/Rook: I = 0.2442, p (contagem, corrigido) = 2e-04, p (spdep, bruto) = 0
+Moran letalidade/Queen: I = 0.08449, p (contagem, corrigido) = 0.0602, p (spdep, bruto) = 0.06
+Moran letalidade/Rook: I = 0.09209, p (contagem, corrigido) = 0.0536, p (spdep, bruto) = 0.0534

@@ -1,0 +1,7 @@
+"Desfecho","Vizinhança","N_municipios","Permutacoes","I_de_Moran","Pseudo_p_valor","Semente","Conclusao"
+"Casos","Queen",184,9999,0.256,2e-04,20200731,"Evidência de autocorrelação espacial residual ao nível de 5%."
+"Casos","Rook",184,9999,0.2605,2e-04,20200731,"Evidência de autocorrelação espacial residual ao nível de 5%."
+"Óbitos","Queen",184,9999,0.2251,2e-04,20200731,"Evidência de autocorrelação espacial residual ao nível de 5%."
+"Óbitos","Rook",184,9999,0.2442,2e-04,20200731,"Evidência de autocorrelação espacial residual ao nível de 5%."
+"Letalidade","Queen",184,9999,0.0845,0.0602,20200731,"Sem evidência de autocorrelação espacial residual ao nível de 5% sob esta matriz."
+"Letalidade","Rook",184,9999,0.0921,0.0536,20200731,"Sem evidência de autocorrelação espacial residual ao nível de 5% sob esta matriz."

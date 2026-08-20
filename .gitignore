@@ -1,0 +1,24 @@
+# R session state
+.RData
+.RDataTmp
+.Rhistory
+.Rproj.user/
+
+# Google Drive desktop sync temp folders
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Historical script/data snapshots (superseded by git history from here on)
+outdated/
+
+# Scratch test-mode runs (COVID_BMA_MODO_TESTE=1) — not used for the thesis
+resultados/teste/
+
+# Large intermediate MCMC chain objects — regenerable by re-running covid_bma.R.
+# Keep the small consolidated/summary artifacts (diagnostics CSVs, final tables, logs).
+resultados/estimacoes/**/*.rds
+resultados/piloto/**/*.rds
+
+# OS
+Thumbs.db
+.DS_Store

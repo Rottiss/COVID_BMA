@@ -1,0 +1,340 @@
+"variavel","municipio","codigo_ibge","valor"
+"cov100k","Acarape",2300150,7582.55743854243
+"cov100k","Barroquinha",2302057,4594.79256842245
+"cov100k","Chaval",2303907,5478.61351289311
+"cov100k","Frecheirinha",2304509,5315.52018192155
+"cov100k","Groairas",2304905,5502.34911456451
+"cov100k","Moraujo",2308807,5077.94589637781
+"cov100k","Sobral",2312908,4714.86347428626
+"letal","Barro",2302008,0.101449275362319
+"letal","Fortaleza",2304400,0.0874668057663126
+"letal","Guaiuba",2304954,0.101214574898785
+"letal","Ibaretama",2305266,0.133333333333333
+"letal","Penaforte",2310605,0.166666666666667
+"letal","Umirim",2313757,0.0905511811023622
+"pop","Caucaia",2303709,361400
+"pop","Crato",2304202,132123
+"pop","Fortaleza",2304400,2669342
+"pop","Iguatu",2305506,102498
+"pop","Itapipoca",2306405,129358
+"pop","Juazeiro do Norte",2307304,274207
+"pop","Maracanau",2307650,227886
+"pop","Maranguape",2307700,128978
+"pop","Pacatuba",2309706,83432
+"pop","Quixada",2311306,87728
+"pop","Sobral",2312908,208935
+"area","Acopiara",2300309,2254.279
+"area","Aiuaba",2300408,2438.563
+"area","Boa Viagem",2302404,2835.037
+"area","Caninde",2302800,3032.39
+"area","Crateus",2304103,2981.459
+"area","Granja",2304707,2663.174
+"area","Independencia",2305605,3222.381
+"area","Mombaca",2308500,2115.748
+"area","Morada Nova",2308708,2763.971
+"area","Parambu",2310308,2313.868
+"area","Quixada",2311306,2020.586
+"area","Quixeramobim",2311405,3324.987
+"area","Santa Quiteria",2312205,4262.298
+"area","Sobral",2312908,2068.474
+"area","Tamboril",2313203,2014.543
+"area","Taua",2313302,4010.618
+"densidade","Aquiraz",2301000,167.149068374716
+"densidade","Caucaia",2303709,295.443434926417
+"densidade","Eusebio",2304285,680.276079068233
+"densidade","Fortaleza",2304400,8545.91439813288
+"densidade","Horizonte",2305233,419.396226885156
+"densidade","Itaitinga",2306256,247.127259477116
+"densidade","Juazeiro do Norte",2307304,1059.58158801799
+"densidade","Maracanau",2307650,2168.87628365581
+"densidade","Maranguape",2307700,221.040093915219
+"densidade","Pacajus",2309607,288.46123114293
+"densidade","Pacatuba",2309706,626.197123900447
+"densidade","Pindoretama",2310852,277.808544838113
+"densidade","Uruburetama",2313807,219.818913480885
+"pibpc","Aquiraz",2301000,24630.33
+"pibpc","Eusebio",2304285,46830.08
+"pibpc","Fortaleza",2304400,25356.73
+"pibpc","Horizonte",2305233,25783.29
+"pibpc","Maracanau",2307650,46240.54
+"pibpc","Penaforte",2310605,23504.33
+"pibpc","Pereiro",2310803,18931.91
+"pibpc","Quixere",2311504,19154.79
+"pibpc","Sao Goncalo do Amarante",2312403,87086.02
+"pibpc","Sobral",2312908,23104.7
+"idhm","Barbalha",2301901,0.683
+"idhm","Crato",2304202,0.713
+"idhm","Eusebio",2304285,0.701
+"idhm","Fortaleza",2304400,0.754
+"idhm","Juazeiro do Norte",2307304,0.694
+"idhm","Maracanau",2307650,0.686
+"idhm","Salitre",2311959,0.54
+"idhm","Sobral",2312908,0.714
+"idm","Aquiraz",2301000,51.04
+"idm","Barbalha",2301901,47.52
+"idm","Eusebio",2304285,60.5
+"idm","Fortaleza",2304400,65.5
+"idm","Horizonte",2305233,46.98
+"idm","Maracanau",2307650,51.26
+"idm","Sao Goncalo do Amarante",2312403,60.98
+"idm","Tiangua",2313401,47.37
+"desp.saude","Barbalha",2301901,198486365.311528
+"desp.saude","Camocim",2302602,116289106.423085
+"desp.saude","Eusebio",2304285,172487494.721922
+"desp.saude","Guaramiranga",2305100,106751963.989987
+"desp.saude","Maracanau",2307650,110281936.564774
+"desp.saude","Santa Quiteria",2312205,19643436.2400751
+"desp.saude","Sao Goncalo do Amarante",2312403,108373309.074388
+"desp.saude","Sobral",2312908,121318509.076986
+"desp.educ","Araripe",2301307,157870351.759259
+"desp.educ","Aratuba",2301406,210694228.918714
+"desp.educ","Baixio",2301802,183358513.676845
+"desp.educ","Eusebio",2304285,164407384.740199
+"desp.educ","Graca",2304657,163588016.528926
+"desp.educ","Granjeiro",2304806,159229893.682907
+"desp.educ","Itatira",2306603,178948843.904467
+"desp.educ","Mulungu",2309102,152529223.320706
+"desp.educ","Santa Quiteria",2312205,37592999.4050752
+"desp.educ","Santana do Cariri",2312106,158528558.418079
+"desp.educ","Sao Goncalo do Amarante",2312403,165366952.438974
+"desp.educ","Umirim",2313757,155601177.755359
+"ideb5","Ararenda",2301257,8.3
+"ideb5","Catunda",2303659,8.2
+"ideb5","Cruz",2304251,8.3
+"ideb5","Deputado Irapuan Pinheiro",2304269,8.3
+"ideb5","Independencia",2305605,9.1
+"ideb5","Jijoca de Jericoacoara",2307254,8.3
+"ideb5","Martinopole",2307908,8.6
+"ideb5","Milha",2308351,8.7
+"ideb5","Mucambo",2309003,9.4
+"ideb5","Novo Oriente",2309409,8.3
+"ideb5","Pires Ferreira",2310951,8.5
+"ideb5","Sobral",2312908,8.4
+"ideb5","Uruoca",2313906,8.3
+"ideb9","Ararenda",2301257,6.9
+"ideb9","Catunda",2303659,6.9
+"ideb9","Cruz",2304251,6.9
+"ideb9","Ipaumirim",2305704,3.9
+"ideb9","Jijoca de Jericoacoara",2307254,7
+"ideb9","Milha",2308351,6.4
+"ideb9","Mucambo",2309003,7
+"ideb9","Novo Oriente",2309409,7.7
+"ideb9","Pires Ferreira",2310951,7.8
+"ideb9","Quixeramobim",2311405,6.4
+"ideb9","Sobral",2312908,6.9
+"ideb3","Ararenda",2301257,5.6
+"ideb3","Pacuja",2309904,5.5
+"tax.agua","Amontada",2300754,92.81210592686
+"tax.agua","Beberibe",2302206,91.9115507710212
+"tax.agua","Brejo Santo",2302503,89.9539200627472
+"tax.agua","Capistrano",2302909,94.5339114276866
+"tax.agua","Carius",2303303,91.5886099662795
+"tax.agua","Chaval",2303907,94.5581192860253
+"tax.agua","Cruz",2304251,90.7381615598886
+"tax.agua","Eusebio",2304285,94.2612555485098
+"tax.agua","Granja",2304707,89.3697374938088
+"tax.agua","Guaramiranga",2305100,87.7123442808607
+"tax.agua","Icapui",2305357,91.3892908827786
+"tax.agua","Ico",2305407,90.2992509501494
+"tax.agua","Ipueiras",2305902,94.6652810253746
+"tax.agua","Itaicaba",2306207,93.6653560506772
+"tax.agua","Itapaje",2306306,87.3307573901297
+"tax.agua","Jucas",2307403,93.3131650323388
+"tax.agua","Limoeiro do Norte",2307601,94.387302713247
+"tax.agua","Mauriti",2308104,91.5049189045467
+"tax.agua","Paracuru",2310209,87.5473108733237
+"tax.agua","Pindoretama",2310852,91.6102978293791
+"tax.agua","Quixelo",2311355,91.8533103618016
+"tax.agua","Quixeramobim",2311405,93.2754122798845
+"tax.agua","Salitre",2311959,89.8074369189907
+"tax.agua","Trairi",2313500,92.2394276917504
+"energia100k","Aquiraz",2301000,399494.873615627
+"energia100k","Aracati",2301109,246980.508940668
+"energia100k","Barbalha",2301901,253110.182458334
+"energia100k","Choro",2303931,221383.033799275
+"energia100k","Eusebio",2304285,451049.311798277
+"energia100k","Itaicaba",2306207,269459.563050977
+"energia100k","Jaguaruana",2307007,313262.809672155
+"energia100k","Jijoca de Jericoacoara",2307254,218140.845781187
+"energia100k","Limoeiro do Norte",2307601,324600.033590863
+"energia100k","Maracanau",2307650,237308.527070553
+"energia100k","Marco",2307809,218498.66598443
+"energia100k","Quixere",2311504,391067.768296537
+"energia100k","Russas",2311801,223648.796582858
+"energia100k","Sao Goncalo do Amarante",2312403,207403.762752468
+"tax.hom","Alto Santo",2300705,64.15
+"tax.hom","Banabuiu",2301851,71.44
+"tax.hom","Chorozinho",2303956,108.57
+"tax.hom","Guaiuba",2304954,122.77
+"tax.hom","Guaramiranga",2305100,115.54
+"tax.hom","Pacoti",2309805,65.25
+"tax.hom","Sao Joao do Jaguaribe",2312502,104.64
+"eleitas.fem","Baixio",2301802,48.15
+"eleitas.fem","Chaval",2303907,38.89
+"eleitas.fem","Jati",2307205,38.89
+"eleitas.fem","Milha",2308351,38.46
+"eleitas.fem","Pires Ferreira",2310951,41.67
+"bolsaf","Fortaleza",2304400,22.5613895865871
+"sus1k","Alto Santo",2300705,1.69
+"sus1k","General Sampaio",2304608,1.44
+"sus1k","Granjeiro",2304806,1.45
+"sus1k","Jati",2307205,1.48
+"sus1k","Pacoti",2309805,1.71
+"sus1k","Quiterianopolis",2311264,1.57
+"leitos1k","Aurora",2301703,3.6099618723
+"leitos1k","Barbalha",2301901,6.1106274694
+"leitos1k","Brejo Santo",2302503,4.4465104998
+"leitos1k","Granjeiro",2304806,5.1610239472
+"leitos1k","Jaguaribara",2306801,3.5961757741
+"leitos1k","Jati",2307205,4.0685488842
+"leitos1k","Limoeiro do Norte",2307601,4.6691299966
+"leitos1k","Quixeramobim",2311405,3.6629584865
+"leitos1k","Sobral",2312908,4.5133654007
+"prof1k","Barbalha",2301901,20.5584946093
+"prof1k","Granjeiro",2304806,15.4830718415
+"prof1k","Guaramiranga",2305100,14.6350856923
+"prof1k","Jati",2307205,15.411170016
+"prof1k","Quixeramobim",2311405,15.8604869145
+"prof1k","Sao Goncalo do Amarante",2312403,14.270372971
+"metrop","Aquiraz",2301000,1
+"metrop","Cascavel",2303501,1
+"metrop","Caucaia",2303709,1
+"metrop","Chorozinho",2303956,1
+"metrop","Eusebio",2304285,1
+"metrop","Fortaleza",2304400,1
+"metrop","Guaiuba",2304954,1
+"metrop","Horizonte",2305233,1
+"metrop","Itaitinga",2306256,1
+"metrop","Maracanau",2307650,1
+"metrop","Maranguape",2307700,1
+"metrop","Pacajus",2309607,1
+"metrop","Pacatuba",2309706,1
+"metrop","Paracuru",2310209,1
+"metrop","Paraipaba",2310258,1
+"metrop","Pindoretama",2310852,1
+"metrop","Sao Goncalo do Amarante",2312403,1
+"metrop","Sao Luis do Curu",2312601,1
+"metrop","Trairi",2313500,1
+"pop.rural","Eusebio",2304285,0
+"pop.rural","Fortaleza",2304400,0
+"pop.rural","Itaitinga",2306256,0.00703576513945892
+"pop.rural","Juazeiro do Norte",2307304,0.039253577873001
+"pop.rural","Maracanau",2307650,0.00680197266774133
+"votos","Acarau",2300200,1
+"votos","Brejo Santo",2302503,0.757
+"votos","Campos Sales",2302701,0.9675
+"votos","Carire",2303105,0.7671
+"votos","Choro",2303931,1
+"votos","Eusebio",2304285,0.812
+"votos","Independencia",2305605,0.8038
+"votos","Jaguaribara",2306801,0.8737
+"votos","Jaguaribe",2306900,1
+"votos","Jati",2307205,1
+"votos","Jijoca de Jericoacoara",2307254,0.3638
+"votos","Maranguape",2307700,1
+"votos","Mucambo",2309003,1
+"votos","Pacatuba",2309706,0.3377
+"votos","Quiterianopolis",2311264,0.9602
+"votos","Quixere",2311504,0.9005
+"votos","Redencao",2311603,0.8349
+"votos","Reriutaba",2311702,0.7592
+"votos","Salitre",2311959,1
+"votos","Uruburetama",2313807,0.7647
+"ivs.infra","Amontada",2300754,0.621
+"ivs.infra","Choro",2303931,0.579
+"ivs.capital","Fortaleza",2304400,0.334
+"ivs.renda","Fortaleza",2304400,0.283
+"ivs.renda","Potengi",2311207,0.782
+"ivs.renda","Sao Joao do Jaguaribe",2312502,0.352
+"emprego","Aquiraz",2301000,0.213688629766665
+"emprego","Barbalha",2301901,0.172850068277916
+"emprego","Eusebio",2304285,0.731564027005856
+"emprego","Fortaleza",2304400,0.292737311292446
+"emprego","Frecheirinha",2304509,0.201606026151222
+"emprego","Guaramiranga",2305100,0.16002310803004
+"emprego","Horizonte",2305233,0.266020167218617
+"emprego","Icapui",2305357,0.154961372529347
+"emprego","Itaitinga",2306256,0.14826224328594
+"emprego","Jijoca de Jericoacoara",2307254,0.225222042793702
+"emprego","Juazeiro do Norte",2307304,0.184532123541704
+"emprego","Maracanau",2307650,0.273689476317106
+"emprego","Pereiro",2310803,0.214386459802539
+"emprego","Quixeramobim",2311405,0.145901679780962
+"emprego","Sao Goncalo do Amarante",2312403,0.262711164346785
+"emprego","Sobral",2312908,0.217325962619954
+"imuni","Barro",2302008,0.564922480620155
+"imuni","Granjeiro",2304806,0.503472222222222
+"imuni","Iraucuba",2306108,0.480902777777778
+"imuni","Itaitinga",2306256,0.569967266775777
+"imuni","Mulungu",2309102,0.196564885496183
+"imuni","Nova Olinda",2309201,0.562271062271062
+"imuni","Reriutaba",2311702,0.45531914893617
+"imuni","Sao Luis do Curu",2312601,0.384493670886076
+"idosos","Santa Quiteria",2312205,0.0541381598517264
+"int.circ","Aurora",2301703,1115.43765717531
+"int.circ","Barbalha",2301901,1018.41035850019
+"int.circ","Brejo Santo",2302503,1071.20480223134
+"int.circ","Campos Sales",2302701,765.696784073507
+"int.circ","Cedro",2303808,790.390108385178
+"int.circ","Limoeiro do Norte",2307601,822.976150487068
+"int.circ","Nova Russas",2309300,816.629547141797
+"int.circ","Parambu",2310308,913.676596554678
+"int.circ","Porteiras",2311108,860.229394505201
+"int.circ","Taua",2313302,948.028338911636
+"int.resp","Brejo Santo",2302503,2384.94654081695
+"int.resp","Crateus",2304103,1542.47808828622
+"int.resp","Ipaporanga",2305654,1587.16466833434
+"int.resp","Ipu",2305803,1627.58554951863
+"int.resp","Lavras da Mangabeira",2307502,2754.85590961026
+"int.resp","Russas",2311801,1902.95930634064
+"int.diab","Aurora",2301703,271.761174657256
+"int.diab","Brejo Santo",2302503,242.536936354266
+"int.diab","Cedro",2303808,168.251359705756
+"int.diab","Ipaporanga",2305654,284.654532907789
+"int.diab","Parambu",2310308,231.591637321151
+"int.diab","Redencao",2311603,258.148900285685
+"int.diab","Taua",2313302,188.58628247167
+"int.asma","Aurora",2301703,640.869635758903
+"int.asma","Barbalha",2301901,148.072588473372
+"int.asma","Brejo Santo",2302503,240.51579521798
+"int.asma","Crateus",2304103,95.9053733649466
+"int.asma","Lavras da Mangabeira",2307502,82.5187254030722
+"int.asma","Missao Velha",2308401,169.525047325742
+"int.asma","Monsenhor Tabosa",2308609,81.2347684809098
+"int.asma","Nova Russas",2309300,92.7988121752041
+"int.asma","Porteiras",2311108,80.0213390237397
+"int.asma","Redencao",2311603,130.795442811414
+"int.asma","Russas",2311801,140.675755173031
+"int.asma","Sao Joao do Jaguaribe",2312502,91.563113145847
+"int.asma","Umari",2313708,155.179102547524
+"int.asma","Vicosa do Ceara",2314102,106.751630015274
+"recursofed","Barbalha",2301901,33178717.214261
+"recursofed","Crateus",2304103,18434227.5887791
+"recursofed","Graca",2304657,32942335.5788596
+"recursofed","Guaramiranga",2305100,20858136.7225111
+"recursofed","Itaicaba",2306207,30948487.54312
+"recursofed","Jaguaretama",2306702,19793131.2630768
+"recursofed","Redencao",2311603,27396364.9537053
+"recursofed","Sao Joao do Jaguaribe",2312502,405048949.11707
+"recursofed","Senador Sa",2312809,43716856.6181293
+"auxem","Carire",2303105,159448178.664354
+"auxem","Caririacu",2303204,66528462.8221769
+"auxem","Catarina",2303600,47169774.8574742
+"auxem","Choro",2303931,169372087.863324
+"auxem","Chorozinho",2303956,56760757.994473
+"auxem","Graca",2304657,378297103.965553
+"auxem","Granja",2304707,9023891.28369986
+"auxem","Granjeiro",2304806,297745664.739884
+"auxem","Itaicaba",2306207,496351092.372557
+"auxem","Itaitinga",2306256,19132701.4218009
+"auxem","Pindoretama",2310852,130458501.482958
+"auxem","Santa Quiteria",2312205,39160698.3502277
+"auxem","Santana do Cariri",2312106,180650847.457627
+"auxem","Sao Benedito",2312304,47596183.9550759
+"auxem","Sao Goncalo do Amarante",2312403,15756474.3298501
+"auxem","Sao Joao do Jaguaribe",2312502,2294432962.72073
+"auxem","Senador Pompeu",2312700,177740822.08974
+"auxem","Senador Sa",2312809,695655253.837072
+"auxem","Sobral",2312908,3128724.24438222
+"auxem","Varzea Alegre",2314003,155583605.51067
+"auxem","Vicosa do Ceara",2314102,64200758.7577395

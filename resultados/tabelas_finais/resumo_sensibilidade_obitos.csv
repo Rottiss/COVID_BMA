@@ -1,0 +1,38 @@
+"desfecho","nome_variavel","variavel_codigo","PIP_principal","PIP_ampliado","PIP_escala_nivel","PIP_escala_log1p","PIP_sem_fortaleza","n_especificacoes_pip_maior_igual_05"
+"Óbitos","Índice de Desenvolvimento Municipal","z_idm",0.9074,0.9114,0.9591,0.9533,0.8999,5
+"Óbitos","Leitos vinculados ao SUS","z_leitos1k",0.6198,0.5994,0.3164,0.8889,0.6096,4
+"Óbitos","Proporção da população com 60 anos ou mais","z_idosos",0.531,0.542,0.5882,0.4619,0.5049,4
+"Óbitos","IVS Renda e Trabalho","z_ivs.renda",0.3742,0.3417,0.1323,0.3434,0.4009,0
+"Óbitos","Proporção de mulheres eleitas","z_eleitas.fem",0.3074,0.2866,0.0846,0.5956,0.3356,1
+"Óbitos","Município integrante do semiárido","semiarido",0.3059,0.284,0.3244,0.2177,0.3312,0
+"Óbitos","Proporção da população em empregos formais","z_emprego",0.2677,0.2528,0.0804,0.5028,0.2808,1
+"Óbitos","Internações por doenças do aparelho circulatório","z_int.circ",0.2523,0.2484,0.6173,0.2119,0.2701,1
+"Óbitos","Produto Interno Bruto per capita","z_pibpc",0.2374,0.2274,0.1394,0.2722,0.2669,0
+"Óbitos","IVS Capital Humano","z_ivs.capital",0.2118,0.1979,0.1121,0.3073,0.2379,0
+"Óbitos","Alinhamento partidário do prefeito com o governo federal","aliadogov",0.1968,0.1851,0.07,0.3202,0.21,0
+"Óbitos","Internações por doenças do aparelho respiratório","z_int.resp",0.1966,0.1872,0.2334,0.2037,0.2163,0
+"Óbitos","Proporção da população rural","z_pop.rural",0.1828,0.1734,0.6053,0.189,0.1967,1
+"Óbitos","Internações por diabetes mellitus","z_int.diab",0.17,0.1561,0.0721,0.1959,0.1902,0
+"Óbitos","Cobertura urbana de abastecimento de água","z_tax.agua",0.168,0.158,0.0951,0.3429,0.1897,0
+"Óbitos","Índice de Desenvolvimento Humano Municipal","z_idhm",0.1676,0.1547,0.0684,0.3211,0.1899,0
+"Óbitos","Despesa municipal com educação e cultura","z_desp.educ",0.1459,0.137,0.1023,0.2751,0.1594,0
+"Óbitos","Proporção da população em extrema pobreza","z_ex.pobr",0.1378,0.1255,0.0813,0.1671,0.1547,0
+"Óbitos","Área territorial","z_area",0.1368,0.1259,0.0633,0.3517,0.1455,0
+"Óbitos","IDEB dos anos iniciais do ensino fundamental","z_ideb5",0.1175,0.1098,0.1249,0.1543,0.1274,0
+"Óbitos","Unidades de saúde vinculadas ao SUS","z_sus1k",0.1166,0.1058,0.1133,0.1587,0.1255,0
+"Óbitos","Profissionais de saúde vinculados ao SUS","z_prof1k",0.1162,0.113,0.1414,0.1667,0.1299,0
+"Óbitos","Cobertura média de imunização em menores de um ano","z_imuni",0.1117,0.0988,0.0643,0.1713,0.1232,0
+"Óbitos","Internações por asma","z_int.asma",0.1108,0.0978,0.0977,0.1811,0.1232,0
+"Óbitos","Despesa municipal com saúde e saneamento","z_desp.saude",0.1048,0.0978,0.0667,0.1754,0.1193,0
+"Óbitos","IDEB do 3º ano do ensino médio","z_ideb3",0.1041,0.0913,0.0582,0.1653,0.1098,0
+"Óbitos","Taxa de homicídios","z_tax.hom",0.1032,0.0942,0.0561,0.1558,0.1197,0
+"Óbitos","IVS Infraestrutura Urbana","z_ivs.infra",0.1008,0.0887,0.1025,0.1526,0.116,0
+"Óbitos","Proporção de votos válidos do prefeito eleito","z_votos",0.0995,0.0882,0.0733,0.154,0.1099,0
+"Óbitos","População beneficiária do Programa Bolsa Família","z_bolsaf",0.0984,0.0898,0.0791,0.1645,0.1095,0
+"Óbitos","IDEB dos anos finais do ensino fundamental","z_ideb9",0.0973,0.0886,0.0726,0.1457,0.1114,0
+"Óbitos","Município integrante de região metropolitana","metrop",0.0941,0.0864,0.077,0.1598,0.1068,0
+"Óbitos","Densidade demográfica","z_densidade",0.0932,0.0853,0.0791,0.1513,0.1099,0
+"Óbitos","População estimada","z_pop",0.0931,0.0846,0.0989,0.1491,0.1458,0
+"Óbitos","Consumo de energia elétrica por 100 mil habitantes","z_energia100k",0.0907,0.0859,0.0906,0.1481,0.1079,0
+"Óbitos","Transferências federais para combate à COVID-19","z_recursofed",NA,0.1153,NA,NA,NA,0
+"Óbitos","Auxílio emergencial","z_auxem",NA,0.1075,NA,NA,NA,0
