@@ -2,7 +2,7 @@
 
 Bayesian Model Averaging (BMA) analysis of COVID-19 cases, deaths, and case fatality across the 184 municipalities of Ceará, Brazil, during the first wave of the pandemic (data through July 31, 2020). Written for an undergraduate thesis (TCC) in Economics at Universidade Federal do Ceará (UFC).
 
-The companion repository, [PyTCC](https://github.com/REPLACE_USERNAME/PyTCC), turns this project's estimation results into the figures and tables used in the manuscript.
+The companion repository, [PyTCC](https://github.com/Rottis/PyTCC), turns this project's estimation results into the figures and tables used in the manuscript.
 
 ## What this does
 
@@ -64,4 +64,4 @@ Final result tables and comparison figures: `tabelas_resultados.R` → `resultad
 
 ## Related work
 
-This is part of an undergraduate thesis analyzing factors associated with municipal differences in COVID-19 cases, deaths, and case fatality in Ceará using Bayesian Model Averaging. The visualization pipeline that consumes this project's output lives in the companion repository, [PyTCC](https://github.com/REPLACE_USERNAME/PyTCC).
+This is part of an undergraduate thesis analyzing factors associated with municipal differences in COVID-19 cases, deaths, and case fatality in Ceará using Bayesian Model Averaging. The visualization pipeline that consumes this project's output lives in the companion repository, [PyTCC](https://github.com/Rottis/PyTCC).
