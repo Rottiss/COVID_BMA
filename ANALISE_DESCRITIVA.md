@@ -44,6 +44,3 @@ O heatmap usa eixos numerados (1 a 38) em vez dos nomes das variáveis por exten
 
 Esta análise é descritiva. Não substitui o diagnóstico de dependência espacial nem os resultados do BMA, e não deve ser lida como evidência de associação ou causalidade — apenas como caracterização da base antes da estimação.
 
-## Uso no manuscrito
-
-Em 19/08/2026, as estatísticas descritivas foram incorporadas à Seção 4 do Google Doc `TCC v2` em uma tabela dividida em quatro painéis. Os três mapas foram inseridos como figuras provisórias. O heatmap numerado e sua legenda foram reservados para o apêndice, caso sejam mantidos na versão final em LaTeX.
